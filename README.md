@@ -5,8 +5,8 @@
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?label=Followers&style=social" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=SyedSaif101E&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/SyedSaif101?label=Followers&style=social" alt="followers" />
 </p>
 
 ---
