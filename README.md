@@ -26,9 +26,9 @@
 ## 🌐 Connect With Me
 
 <p align="left">
-<a href="YOUR_LINKEDIN_URL" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/syed-saif-gillani-309078296/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="YOUR_GITHUB_URL" target="_blank"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="mailto:YOUR_EMAIL" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="mailto:saifgillani3@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="YOUR_PORTFOLIO_URL" target="_blank"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" alt="Portfolio"/></a>
 </p>
 
@@ -131,7 +131,7 @@
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🔒 Asymmetric Encryption to Sign and Verify Data
 **Technologies:** Google Cloud KMS, OpenSSL, RSA  
@@ -168,7 +168,7 @@ Comprehensive research report on dark matter and dark energy.
 
 ---
 
-## 💼 Professional Experience
+##  Professional Experience
 
 ### 👨‍💼 Team Lead - Google Quantum AI | GDG IST
 **Mar 2025 - Present** | Islamabad, Pakistan (Hybrid)
@@ -238,7 +238,7 @@ current_focus = {
 
 ---
 
-## 🌟 Fun Facts
+## Fun Facts
 
 - 🔭 Passionate about exploring the cosmos and understanding dark matter
 - 🚀 Building rockets and RC planes in my free time
@@ -247,15 +247,6 @@ current_focus = {
 - 🤝 Believer in open-source and community-driven development
 
 ---
-
-## 📫 Get In Touch
-
-I'm always open to interesting conversations and collaboration opportunities!
-
-- 💼 **LinkedIn:** [Syed Saif Gillani](https://www.linkedin.com/in/syed-saif-gillani-309078296/)
-- 📧 **Email:** saifgillani3@gmail.com
-- 🌐 **Portfolio:** [Your Portfolio Website](YOUR_PORTFOLIO_URL)
-
 
 ---
 
