@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Saif.
+#  Hi, I'm Saif.
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=800&lines=Deep+Learning+%7C+SDSS+Data+Analysis;Google+Certified+Cybersecurity+Analyst;Quantum+Computing+Enthusiast;Space+Technology+%26+Astrophysics" alt="Typing SVG" />
@@ -11,19 +11,19 @@
 
 ---
 
-## 💫 About Me
+## About Me
 
-🔭 **Currently Working On:** Deep Learning techniques on SDSS (Sloan Digital Sky Survey) Data  
-🎓 **Certified By:** Google Career Certificate Program in Cybersecurity  
-👨‍💻 **Programming:** Hands-on grip with **Python** | Basic grip with **C++**  
-🚀 **Leadership Role:** Leading the **Google Quantum AI Team** at GDG on Campus, Institute of Space Technology  
-⚡ **Passion Projects:** Arduino-based RC cars, Rocket engineering, and Space Technology  
-🌌 **Research Interests:** Astrophysics, Cosmology, Dark Matter & Dark Energy, Quantum Computing  
+ **Currently Working On:** Deep Learning techniques on SDSS (Sloan Digital Sky Survey) Data  
+ **Certified By:** Google Career Certificate Program in Cybersecurity  
+ **Programming:** Hands-on grip with **Python** | Basic grip with **C++**  
+ **Leadership Role:** Leading the **Google Quantum AI Team** at GDG on Campus, Institute of Space Technology  
+ **Passion Projects:** Arduino-based RC cars, Rocket engineering, and Space Technology  
+ **Research Interests:** Astrophysics, Cosmology, Dark Matter & Dark Energy, Quantum Computing  
 
 
 ---
 
-## 🌐 Connect With Me
+##  Connect With Me
 
 <p align="left">
 <a href="https://www.linkedin.com/in/syed-saif-gillani-309078296/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -34,7 +34,7 @@
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 ### Programming Languages
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -71,9 +71,9 @@
 
 ---
 
-## 🏆 Certifications & Achievements
+## Certifications & Achievements
 
-### 🔐 Cybersecurity Certifications
+###  Cybersecurity Certifications
 - **Google Cybersecurity Professional Certificate** (Jul 2025) - [Verify](https://www.coursera.org/account/accomplishments/professional-cert/OSZ9KNH8P43O)
   - IT Security: Defense against the digital dark arts
   - Assets, Threats, and Vulnerabilities
@@ -85,62 +85,62 @@
 - **Ethical Hacking Foundations** - Packt (Jun 2025)
 - **Office of the CISO Institute: Cybersecurity Essentials** - Google (Sep 2025)
 
-### 🐍 Python & Programming
+###  Python & Programming
 - **Crash Course on Python** - Google (Sep 2025)
 - **Python Data Structures** - University of Michigan (Jun 2025)
 - **Programming for Everybody** - University of Michigan (Apr 2025)
 - **Python for Data Science, AI & Development** - IBM (Mar 2025)
 
-### 🤖 AI & Machine Learning
+###  AI & Machine Learning
 - **Google Prompting Essentials** - Google Career Certificates (Aug 2025)
 - **AI For Everyone** - DeepLearning.AI (Mar 2025)
 
-### ⚛️ Quantum Computing
+###  Quantum Computing
 - **Hands-on Quantum Error Correction with Google Quantum AI** - Google (Jun 2025)
 - **Quantum Computing For Everyone - An Introduction** - Fractal (Mar 2025)
 
-### 🚀 Space & Astrophysics
+###  Space & Astrophysics
 - **Rocket Science for Everyone** - Yale University (Mar 2025)
 - **Workshop on General Relativity, Cosmology, Astrophysics and Particle Physics** - SARL-NCGSA (Dec 2024)
 
-### 📊 Professional Skills
+###  Professional Skills
 - **Work Smarter with Microsoft Excel** - Microsoft (Mar 2025)
 - **Work Smarter with Microsoft PowerPoint** - Microsoft (Mar 2025)
 - **How to Write a Research Paper** - Higher Education Commission (Feb 2025)
 
 ---
 
-## 🏅 Honors & Awards
+##  Honors & Awards
 
-🥇 **IAAC Qualification Round 2025** (Jul 2025)
+ **IAAC Qualification Round 2025** (Jul 2025)
 - Scored **24/25** (Qualification threshold: 17)
 - Special honor for digitally written submission
 - Represented Institute of Space Technology, Pakistan
 
-📡 **3-Day GIS & RS Workshop - GeoGenesis 2.0** (May 2025)
+ **3-Day GIS & RS Workshop - GeoGenesis 2.0** (May 2025)
 - Remote Sensing & GIS Fundamentals
 - Climate Data Mapping with Python
 - GenAI framework (GeoLLM)
 
-🌍 **Management at World Space Week 2024** (Oct 2024)
+ **Management at World Space Week 2024** (Oct 2024)
 - Student Management Team
 - Space Technology and Applications
 
-✈️ **RC Planes Workshop** - IST Robotics Society (Nov 2023)
+ **RC Planes Workshop** - IST Robotics Society (Nov 2023)
 - Hands-on aerodynamics and flight mechanics
 
 ---
 
 ## Featured Projects
 
-### 🔒 Asymmetric Encryption to Sign and Verify Data
+###  Asymmetric Encryption to Sign and Verify Data
 **Technologies:** Google Cloud KMS, OpenSSL, RSA  
 Demonstrated digital signature implementation using asymmetric encryption. Generated RSA key pairs in Google Cloud KMS and verified data integrity through signature validation.
 - File signing with private keys
 - Signature verification with public keys
 - Tamper detection mechanisms
 
-### 🐧 Linux System Administration
+###  Linux System Administration
 **Technologies:** Linux, Bash, Unix  
 Comprehensive Linux filesystem management and shell scripting projects.
 - File and directory management
@@ -148,7 +148,7 @@ Comprehensive Linux filesystem management and shell scripting projects.
 - Bash automation scripts
 - System administration workflows
 
-### 🔐 Security Infrastructure Design
+###  Security Infrastructure Design
 **Technologies:** Network Security, LaTeX, PCI DSS, GDPR  
 Designed end-to-end security architecture for fictional e-commerce company.
 - Multi-factor authentication (MFA)
@@ -158,7 +158,7 @@ Designed end-to-end security architecture for fictional e-commerce company.
 - Intrusion detection systems
 - Compliance with PCI DSS and GDPR
 
-### 🌌 Dark Matter and Dark Energy Research
+###  Dark Matter and Dark Energy Research
 **Focus:** Cosmology, Astrophysics  
 Comprehensive research report on dark matter and dark energy.
 - Current cosmological theories
@@ -170,21 +170,21 @@ Comprehensive research report on dark matter and dark energy.
 
 ##  Professional Experience
 
-### 👨‍💼 Team Lead - Google Quantum AI | GDG IST
+###  Team Lead - Google Quantum AI | GDG IST
 **Mar 2025 - Present** | Islamabad, Pakistan (Hybrid)
 - Leading quantum computing initiatives in collaboration with Google's Quantum AI
 - Managing projects on quantum algorithms and software development
 - Mentoring team members in quantum technologies
 - Driving innovation in quantum computing research
 
-### 🎓 Campus Ambassador | Google Developer Groups On Campus
+###  Campus Ambassador | Google Developer Groups On Campus
 **Oct 2024 - Present** | Islamabad, Pakistan (Hybrid)
 - Promoting tech events, workshops, and Google technologies
 - Connecting students with global GDG community
 - Organizing learning opportunities and collaboration events
 - Developing leadership and event management skills
 
-### 🔒 Google Certified Cybersecurity Analyst
+###  Google Certified Cybersecurity Analyst
 **Jul 2025 - Present** | Self-employed (Hybrid)
 - Applying cybersecurity best practices
 - Incident response and threat detection
@@ -194,7 +194,7 @@ Comprehensive research report on dark matter and dark energy.
 ---
 
 
-## 🎯 Current Focus Areas
+##  Current Focus Areas
 
 ```python
 current_focus = {
@@ -208,7 +208,7 @@ current_focus = {
 
 ---
 
-## 📈 Skills Matrix
+##  Skills Matrix
 
 | Domain | Technologies | Proficiency |
 |--------|-------------|-------------|
@@ -222,13 +222,13 @@ current_focus = {
 
 ---
 
-## Fun Facts
+## fun facts
 
-- 🔭 Passionate about exploring the cosmos and understanding dark matter
-- 🚀 Building rockets and RC planes in my free time
-- 🎮 Love solving complex problems through code
-- 📚 Always learning new technologies and frameworks
-- 🤝 Believer in open-source and community-driven development
+-  Passionate about exploring the cosmos and understandig dark matter
+-  Building rockets and RC planes in my free time
+-  Love solving complex problems through code
+-  Always learning new technologies and frameworks
+-  Believer in open-source and community-driven development
 
 ---
 
