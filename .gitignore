@@ -1,0 +1,10 @@
+pacman/pacman
+_codeql_detected_source_root
+
+# CLion / CMake build artifacts
+cmake-build-*/
+build/
+.idea/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
