@@ -2,6 +2,7 @@
 // Terminal Pac-Man Game in C++
 // =============================================================================
 // A console-based Pac-Man game using ANSI escape codes for rendering.
+// Cross-platform: works on Windows (CLion/MSVC/MinGW) and Linux/macOS.
 //
 // Controls: W/A/S/D to move, Q to quit
 // Objective: Eat all pellets to win. Avoid ghosts or eat them after a power pellet!
@@ -12,11 +13,18 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
-#include <termios.h>
-#include <unistd.h>
-#include <fcntl.h>
 #include <algorithm>
 #include <chrono>
+#include <thread>
+
+#ifdef _WIN32
+  #include <conio.h>
+  #include <windows.h>
+#else
+  #include <termios.h>
+  #include <unistd.h>
+  #include <fcntl.h>
+#endif
 
 // =============================================================================
 // Constants
@@ -96,8 +104,57 @@ static const std::string INITIAL_MAP[MAP_HEIGHT] = {
 };
 
 // =============================================================================
-// Terminal raw mode helpers
+// Cross-platform terminal helpers
 // =============================================================================
+
+#ifdef _WIN32
+
+static HANDLE hConsole;
+static HANDLE hInput;
+static DWORD origConsoleMode;
+
+static void disableRawMode() {
+    SetConsoleMode(hInput, origConsoleMode);
+    // Show cursor
+    std::cout << "\033[?25h" << std::flush;
+}
+
+static void enableRawMode() {
+    hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    hInput = GetStdHandle(STD_INPUT_HANDLE);
+
+    // Save original console mode
+    GetConsoleMode(hInput, &origConsoleMode);
+    atexit(disableRawMode);
+
+    // Enable virtual terminal processing for ANSI escape codes on Windows
+    DWORD outMode = 0;
+    GetConsoleMode(hConsole, &outMode);
+    outMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
+    SetConsoleMode(hConsole, outMode);
+
+    // Hide cursor
+    std::cout << "\033[?25l" << std::flush;
+}
+
+static int kbhit_read() {
+    if (_kbhit()) {
+        int ch = _getch();
+        // Handle extended keys (arrow keys, function keys, etc.)
+        if (ch == 0 || ch == 0xE0) {
+            _getch(); // discard the second byte
+            return -1;
+        }
+        return ch;
+    }
+    return -1;
+}
+
+static void sleepMs(int ms) {
+    Sleep(ms);
+}
+
+#else
 
 static struct termios orig_termios;
 
@@ -121,12 +178,18 @@ static void enableRawMode() {
     std::cout << "\033[?25l" << std::flush;
 }
 
-static int kbhit() {
+static int kbhit_read() {
     char ch;
     ssize_t n = read(STDIN_FILENO, &ch, 1);
     if (n > 0) return ch;
     return -1;
 }
+
+static void sleepMs(int ms) {
+    usleep(ms * 1000);
+}
+
+#endif
 
 // =============================================================================
 // Ghost structure
@@ -250,7 +313,7 @@ public:
     void processInput() {
         int ch;
         // Read all available input, keep the last valid direction
-        while ((ch = kbhit()) != -1) {
+        while ((ch = kbhit_read()) != -1) {
             switch (ch) {
                 case 'w': case 'W': nextDir = UP;    break;
                 case 's': case 'S': nextDir = DOWN;  break;
@@ -627,7 +690,7 @@ public:
             update();
             if (gameOver || gameWon) break;
             render();
-            usleep(100000); // ~100ms = 10 FPS
+            sleepMs(100); // ~100ms = 10 FPS
         }
 
         if (gameWon) {
@@ -637,8 +700,8 @@ public:
         }
 
         // Wait for keypress before exiting
-        while (kbhit() == -1) {
-            usleep(50000);
+        while (kbhit_read() == -1) {
+            sleepMs(50);
         }
     }
 };
