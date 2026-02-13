@@ -23,21 +23,53 @@ A classic Pac-Man game built entirely in C++, playable directly in your terminal
 - **C++17** compatible compiler (g++, clang++)
 - **Linux/macOS** terminal (uses POSIX terminal APIs)
 
-## Build & Run
+---
+
+## Running in CLion (Recommended)
+
+### What to Download
+
+1. **CLion** — Download and install from [jetbrains.com/clion](https://www.jetbrains.com/clion/download/)
+   - Free 30-day trial available; free for students via [JetBrains Education](https://www.jetbrains.com/community/education/)
+2. **C++ Compiler** — CLion needs a compiler toolchain:
+   - **Linux (Ubuntu/Debian):** `sudo apt update && sudo apt install build-essential cmake`
+   - **Linux (Fedora):** `sudo dnf install gcc-c++ cmake make`
+   - **macOS:** Install Xcode Command Line Tools: `xcode-select --install`
+
+### How to Open and Run in CLion
+
+1. **Open the project:**
+   - Launch CLion → **File → Open** → select the `pacman` folder (the one containing `CMakeLists.txt`)
+   - CLion will auto-detect the CMake project and configure it
+
+2. **Build the project:**
+   - Click the **Build** button (🔨) in the toolbar, or press **Ctrl+F9** (Linux) / **Cmd+F9** (macOS)
+
+3. **Run the game:**
+   - Click the **Run** button (▶️) in the toolbar, or press **Shift+F10** (Linux) / **Ctrl+R** (macOS)
+   - **Important:** The game runs in CLion's built-in terminal, which supports ANSI colors
+
+4. **Play!** Use **W/A/S/D** to move and **Q** to quit
+
+> **Tip:** If colors look off, go to **Run → Edit Configurations → pacman**, and check **"Emulate terminal in output console"** for full ANSI color support.
+
+---
+
+## Build & Run (Command Line)
 
 ```bash
 cd pacman
 
-# Build with Make
+# Option 1: Build with Make
 make
-
-# Run the game
 ./pacman
-```
 
-Or compile directly:
+# Option 2: Build with CMake
+cmake -B build
+cmake --build build
+./build/pacman
 
-```bash
+# Option 3: Compile directly
 g++ -std=c++17 -Wall -O2 -o pacman pacman.cpp
 ./pacman
 ```
