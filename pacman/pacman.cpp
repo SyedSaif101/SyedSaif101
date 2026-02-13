@@ -528,8 +528,8 @@ public:
                     switch (pacDir) {
                         case RIGHT: pacChar = 'C'; break;
                         case LEFT:  pacChar = 'D'; break;
-                        case UP:    pacChar = 'V'; break;
-                        case DOWN:  pacChar = '^'; break;
+                        case UP:    pacChar = '^'; break;
+                        case DOWN:  pacChar = 'v'; break;
                         default:    pacChar = 'C'; break;
                     }
                     std::cout << YELLOW << pacChar << RESET;
