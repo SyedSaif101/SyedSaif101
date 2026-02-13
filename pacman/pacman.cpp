@@ -110,17 +110,18 @@ static const std::string INITIAL_MAP[MAP_HEIGHT] = {
 #ifdef _WIN32
 
 static HANDLE hConsole;
+static HANDLE hInput;
 static DWORD origConsoleMode;
 
 static void disableRawMode() {
-    SetConsoleMode(GetStdHandle(STD_INPUT_HANDLE), origConsoleMode);
+    SetConsoleMode(hInput, origConsoleMode);
     // Show cursor
     std::cout << "\033[?25h" << std::flush;
 }
 
 static void enableRawMode() {
     hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    HANDLE hInput = GetStdHandle(STD_INPUT_HANDLE);
+    hInput = GetStdHandle(STD_INPUT_HANDLE);
 
     // Save original console mode
     GetConsoleMode(hInput, &origConsoleMode);
