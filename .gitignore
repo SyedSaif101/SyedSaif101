@@ -1,4 +1,5 @@
 pacman/pacman
+pacman/pacman.exe
 _codeql_detected_source_root
 
 # CLion / CMake build artifacts
@@ -8,3 +9,16 @@ build/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
+
+# MSVC / Visual Studio artifacts
+*.obj
+*.pdb
+*.ilk
+*.exe
+out/
+x64/
+x86/
+Debug/
+Release/
+*.vcxproj*
+*.sln
