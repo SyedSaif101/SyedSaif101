@@ -12,40 +12,40 @@
 
 Final-year **B.S. Space Science** student at the Institute of Space Technology, Islamabad. I build AI applications in Python: LLM-powered agents, API integrations, and ML pipelines that ship and run without babysitting.
 
-- 🤖 **Now:** fine-tuning DistilGPT2 for next-word prediction, served through a FastAPI REST API
-- 🔭 **Research:** deep-learning classification and redshift estimation of SDSS spectra (SARL–NCGSA, FYP)
-- 🌱 **Learning next:** RAG with vector databases, tool calling, LangChain / LangGraph
-- 🧑‍🤝‍🧑 **Leading:** the Google Quantum AI team at GDG on Campus IST
+- **Now:** fine-tuning DistilGPT2 for next-word prediction, served through a FastAPI REST API
+- **Research:** deep-learning classification and redshift estimation of SDSS spectra (SARL–NCGSA, FYP)
+- **Learning next:** RAG with vector databases, tool calling, LangChain / LangGraph
+- **Leading:** the Google Quantum AI team at GDG on Campus IST
 
 ---
 
-## 🛠️ Featured AI Work
+## Featured AI Work
 
-### 🗞️ AI News-Posting Agent — *n8n · Gemini API · Telegram*
+### AI News-Posting Agent — *n8n · Gemini API · Telegram*
 Scheduled agentic workflow for a client: pulls trending stories from **3 sources in parallel**, filters and normalises them with code nodes, then chains **two Gemini agents** (a classifier that picks relevant stories and a copywriter that rewrites them in brand voice) and posts to Telegram **every 12 hours** with no manual step.
 
 ```
 Sources A/B/C ──► Filter + code ──► Merge ──► Gemini classifier ──► Gemini copywriter ──► Telegram (12h)
 ```
 
-### ⌨️ Predictive Keyboard — *PyTorch · Hugging Face · FastAPI · Gradio* (in progress)
+### Predictive Keyboard — *PyTorch · Hugging Face · FastAPI · Gradio* (in progress)
 Context-aware next-word prediction. Fine-tunes **DistilGPT2** on MASSIVE en-US (+ OASST1, WikiText) through a config-driven pipeline and compares an **n-gram baseline vs pretrained vs fine-tuned** model. Served as a **REST/JSON API** with a Gradio demo; runs CPU-only. Tooling: pytest, Ruff, mypy, MLflow, Docker, GitHub Actions.
 
-### 💬 Gemini API Chatbot — *Python · Gemini API*
+### Gemini API Chatbot — *Python · Gemini API*
 Conversational chatbot built from scratch: each user message is sent with recent conversation context to the Gemini API and the reply is returned, a complete request/response loop over REST and JSON.
 
-### 🔭 SDSS Spectra Pipeline for Deep Learning — *Python · NumPy · Astropy*
+### SDSS Spectra Pipeline for Deep Learning — *Python · NumPy · Astropy*
 Downloaded and processed **15,955 FITS spectra** from SDSS DR18. Applied Savitzky–Golay smoothing, wavelength/redshift correction and power-law fitting to separate clean spectra from noisy ones before model training. [Report](https://syedsaif101.github.io/portfolio/Internship_SARL.pdf)
 
-### ⚛️ Quantum Radar — IBM Quantum Hackathon — *Python · Qiskit*
+### Quantum Radar — IBM Quantum Hackathon — *Python · Qiskit*
 Hybrid quantum-classical Battleship engine using the Quantum Zeno Effect. Raised interaction-free detection fidelity from **~25% to ~99.5%**, tested under ideal and noisy simulation. [Report](https://syedsaif101.github.io/portfolio/Hackathon_Report.pdf)
 
-### ✉️ n8n Email Automation
+### n8n Email Automation
 Inbox trigger → sender/subject filter → templated reply → auto-send, removing a fully manual step.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
@@ -81,7 +81,7 @@ Inbox trigger → sender/subject filter → templated reply → auto-send, remov
 
 ---
 
-## 📜 Selected Certifications
+## Selected Certifications
 
 - **Google Prompting Essentials** — Google (Aug 2025)
 - **AI For Everyone** — DeepLearning.AI (Mar 2025)
@@ -94,7 +94,7 @@ Full list (25+) on my [portfolio](https://syedsaif101.github.io/portfolio/#crede
 
 ---
 
-## 🏆 Highlights
+## Highlights
 
 - **IAAC 2025 Qualification Round** — scored 24/25 (threshold 17), represented IST
 - **GeoGenesis 2.0** GIS & RS workshop — climate data mapping with Python, GeoLLM (May 2025)
