@@ -101,7 +101,4 @@ Full list (25+) on my [portfolio](https://syedsaif101.github.io/portfolio/#crede
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SyedSaif101&show_icons=true&hide_border=true&theme=tokyonight" height="150" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SyedSaif101&layout=compact&hide_border=true&theme=tokyonight" height="150" alt="Top languages"/>
-</p>
+
